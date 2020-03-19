@@ -4,15 +4,9 @@
 @using Blazor.Extensions;
 @using Blazor.Extensions.Canvas.Canvas2D;
 @using EndPointGuiTest.Data;
-@using ChartJs.Blazor.ChartJS.LineChart
-@inherits ChartJs.Blazor.Charts.ChartBase<LineConfig>
 
 <h1>Here be the data</h1>
 
 <h2>linear line chart</h2>
 
-<div class="row">
-    <div class="chart-container">
-        <canvas id="@Config.CanvasId" width="@Width" height="@Height"></canvas>
-    </div>
-</div>
+<LinearLineChartComponent/>

@@ -15,11 +15,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Charts\ChartUtils\" />
+    <Folder Include="Charts\ChartsCS\ChartUtils\" />
+    <Folder Include="Charts\ChartsRazor\" />
   </ItemGroup>
 
 </Project>
